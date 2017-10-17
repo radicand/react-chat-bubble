@@ -1,0 +1,24 @@
+﻿Revert "Fix Readme example mistake"
+
+This reverts commit c7ce5997c7d2b07c7241115bb6f5da5fb1e05970.
+
+# Conflicts:
+#	package.json
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# You are currently reverting commit c7ce599.
+#
+# Changes to be committed:
+#	modified:   README.md
+#	modified:   build/ChatBubble.js
+#	modified:   build/ChatBubble.js.map
+#	modified:   package.json
+#	modified:   src/components/ChatBubble.css
+#	modified:   src/components/ChatBubble.js
+#	modified:   src/index.js
+#
+

@@ -21,20 +21,10 @@ class App extends Component {
     ],
   };
 
-  handleNewMessage = text =>
-    this.setState({
-      messages: this.state.messages.concat([{
-        text,
-        type: 0,
-        image,
-      }])
-    });
-
   render() {
     return (
       <ChatBubble
         messages={this.state.messages}
-        onNewMessage={this.handleNewMessage}
       />
     );
   }
