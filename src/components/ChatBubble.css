@@ -67,15 +67,3 @@
   height:42px;
   width:42px;
 }
-
-.chats {
-  position: relative;
-  height: 100%;
-}
-
-.chat-list {
-  height: calc(100% - 3rem);
-  overflow-y: scroll;
-  padding: 1rem;
-  padding-bottom: 0.5rem;
-}
